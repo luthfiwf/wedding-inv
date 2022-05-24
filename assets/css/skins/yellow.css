@@ -1,0 +1,47 @@
+/*  pink color style    */
+
+.rspv-section .scroll .content p,
+.rspv-section .scroll .content h3,
+.fa-music,
+.preloader .loader i,
+.btn-1:hover,
+.event-section .event-item-inner span,
+.story-section .story-item i,
+.story-section .story-text h3,
+.couple-section .social-icons a i,
+.couple-section .couple i.fa-heart,
+.couple-section .couple h3,
+body.dark .header .nav ul li a.active,
+.header .nav ul li a.active,
+body.dark .header .nav ul li a:hover,
+.header .nav ul li a:hover {
+    color: #ff9801;
+}
+
+.preloader .loader::before {
+    border-right: 3px solid #ff9801;
+}
+
+.maps .maps-detail::before,
+.count,
+.fa-music,
+.btn-1,
+.event-section .event-item-inner::before,
+.couple-section .social-icons a i,
+.couple-section .couple img {
+    border-color: #ff9801;
+}
+
+.fa-music.pause::after,
+.setting .s-toogle-btn,
+.btn-1,
+.rspv-section,
+.event-section,
+.couple-section .social-icons a:hover i {
+    background-color: #ff9801;
+}
+
+.event-section .event-item-inner img,
+.footer .footer-content .couple-name img {
+    filter: hue-rotate(45deg);
+}
